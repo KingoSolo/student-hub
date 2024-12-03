@@ -84,7 +84,7 @@ exports.forgotPassword = async (req, res) => {
 
     await student.save();
 
-    const resetUrl = `http://localhost:3000/resetPassword/${resetToken}`;
+    const resetUrl = `https://student-hub-vd8o.onrender.com/resetPassword/${resetToken}`;
     await transporter.sendMail({
       to: email,
       subject: 'Password Reset',

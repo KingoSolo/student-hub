@@ -28,7 +28,7 @@ const Dashboard = () => {
           return;
         }
 
-        const response = await axios.get('http://localhost:3000/api/resources/getDocs', {
+        const response = await axios.get('https://student-hub-vd8o.onrender.com/api/resources/getDocs', {
           headers: {
             Authorization: `Bearer ${token}`,
           },

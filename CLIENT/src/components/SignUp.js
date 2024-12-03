@@ -29,7 +29,7 @@ export default function Signup() {
 
     try {
       const res = await axios.post(
-        'http://localhost:3000/api/students/register',
+        'https://student-hub-vd8o.onrender.com/api/students/register',
         signupPayload
       );
 

@@ -72,7 +72,7 @@ const UploadDocArea = ({ onFileUpload }) => {
             }
             
             //type shit 
-            const res = await axios.post('http://localhost:3000/api/resources/uploadDoc', formData, {
+            const res = await axios.post('https://student-hub-vd8o.onrender.com/api/resources/uploadDoc', formData, {
                 headers: {
                     Authorization: `Bearer ${token}`,
                     "Content-Type": "multipart/form-data"

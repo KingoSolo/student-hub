@@ -33,7 +33,7 @@ const UploadYtArea = ({ onLinkUpload }) => {
         return;
       }
 
-      const response = await axios.post('http://localhost:3000/api/resources/uploadYoutubeLink', {
+      const response = await axios.post('https://student-hub-vd8o.onrender.com/api/resources/uploadYoutubeLink', {
         youtubeLink: link
       }, {
         headers: {

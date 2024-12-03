@@ -30,7 +30,7 @@ const Login = () => {
     try {
       setLoading(true); // Start spinner
       const res = await axios.post(
-        'http://localhost:3000/api/students/login',
+        'https://student-hub-vd8o.onrender.com/api/students/login',
         loginPayload
       );
       console.log("response: ", res);
