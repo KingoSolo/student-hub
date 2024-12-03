@@ -27,9 +27,9 @@ yarn-error.log*
 *.env
 *.env*
 *error*.log
-models/
-middlewares/
-BACKEND/models/
+# models/
+# middlewares/
+# BACKEND/models/
 
 
 # Ignore the submodule directory
