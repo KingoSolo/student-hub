@@ -10,6 +10,7 @@ const resourceRoutes = require('./routes/resourceRoutes');
 
 const app = express();
 
+
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
